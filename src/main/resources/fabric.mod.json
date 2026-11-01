@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "hitbox-colors",
+  "version": "${version}",
+  "name": "Hitbox Colors",
+  "description": "Wind charge hitbox is blue, ender pearl hitbox is red.",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [ { "config": "hitbox-colors.mixins.json", "environment": "client" } ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
